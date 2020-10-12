@@ -1,6 +1,6 @@
 {
   "name": "yargs",
-  "version": "16.0.3",
+  "version": "16.1.0",
   "description": "yargs the modern, pirate-themed, successor to optimist.",
   "main": "./index.cjs",
   "exports": {
@@ -75,7 +75,7 @@
     "yargs-test-extends": "^1.0.1"
   },
   "scripts": {
-    "fix": "gts fix && npm run fix:js", 
+    "fix": "gts fix && npm run fix:js",
     "fix:js": "standardx --fix '**/*.mjs' && standardx --fix '**/*.cjs' && standardx --fix './*.mjs' && standardx --fix './*.cjs'",
     "posttest": "npm run check",
     "test": "c8 mocha ./test/*.cjs --require ./test/before.cjs --timeout=12000 --check-leaks",
